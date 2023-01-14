@@ -76,5 +76,47 @@ body {
   justify-content: center;
 }
 hr {
-  margin: 30px 100px;
+  margin: 30px 165px;
+}
+.popular {
+  margin: 30px 165px;
+}
+.popular-collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+}
+.title {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.collection {
+  width: 329px;
+  padding-bottom: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.coll-img {
+  margin: 17px 15px 0 15px;
+}
+.infos {
+  margin: 17px 15px;
+}
+.collection-title {
+  color: #18191f;
+  font-weight: 500;
+  font-size: 28px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collection .rating img {
+  width: 11.07px;
+  height: 10.32px;
 }
