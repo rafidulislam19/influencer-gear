@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px;
+}
+.nav h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 34px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.search {
+  width: 24px;
+  height: 24px;
+}
+.cart {
+  width: 36px;
+  height: 36px;
+}
