@@ -29,3 +29,42 @@ body {
   width: 36px;
   height: 36px;
 }
+.banner {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+}
+.banner-info {
+  width: 50%;
+}
+.banner-info h1 {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 52px;
+  margin-bottom: 16px;
+}
+.banner-info p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+.banner-img {
+  text-align: center;
+  width: 440px;
+  height: 414px;
+  width: 50%;
+  background-image: url("../images/Circle design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.btn-primary {
+  width: 196px;
+  height: 44px;
+  background: #e02c6d;
+  border-radius: 41px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+}
